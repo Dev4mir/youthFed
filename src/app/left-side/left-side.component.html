@@ -1,0 +1,7 @@
+<div class="left-side">
+    <div class="list">
+      <ul>
+        <li *ngFor="let item of leftList; let i=index"><a [ngClass]="{'active': selectedIndex == i}" (click)="select(i)" routerLinkActive="active" [routerLink]="item.router"><fa [name]="item.icon" [size]=1></fa>{{item.name}}</a></li>
+      </ul>
+    </div>
+</div>

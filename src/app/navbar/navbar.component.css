@@ -1,0 +1,116 @@
+.above-navbar {
+  background-color: #1A364D;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.above-navbar a {
+  float: left;
+  font-size: 10px;
+  color: #C0C7CD;
+}
+.above-navbar-top-right a {
+  color: white;
+}
+.above-navbar-top-right a:not(:first-child){
+  margin-left: 20px;
+}
+.left-border{
+  display: block;
+  float: left;
+  padding-top: 10px;
+  margin-top: 3px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-left: 1px solid #A3AEB7;
+}
+.navbar{
+  font-size: 11px;
+  background-color: white;
+  box-shadow: none;
+  margin-bottom: 25px;
+  min-height: 108px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar .container{
+  min-height: 110px;
+  text-align: center;
+}
+.logo-img{
+  width: 80%;
+  min-width: 100px;
+}
+.navbar-toggler{
+  background-color: #d8e4f4;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+  background-color: #FE8124;
+}
+.navbar-collapse{
+  min-height: 110px;
+}
+.navbar ul {
+  min-height: 115px;
+}
+.navbar ul li a{
+  color: #1A364D;
+  letter-spacing: 2px;
+  text-align: center;
+  min-height: 100px;
+  padding-top: 35px;
+  border-top: solid 3px transparent;
+}
+.navbar ul li a fa{
+  margin-top: 10px;
+  display: block;
+}
+.nav-link:hover{
+  color: #FE8124 !important;
+}
+.navbar{
+  font-weight: bold;
+}
+.active{
+  color: #FE8124 !important;
+  border-top: solid 3px #FE8124 !important;
+}
+.rm-padding-divs{
+  padding: 0;
+}
+
+.brand-span{
+  min-width: 110px;
+  font-size: 12px;
+  color: #808080;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+.center-elm{
+  text-align: center;
+  min-height: 100px;
+  padding-top: 35px;
+}
+.userName-div{
+  margin-top: 15px;
+}
+.userPhoto{
+  width: 45px;
+}
+.username-dropdown{
+  margin-left: 3px;
+  cursor: pointer;
+}
+.search-div{
+  background-color: #D8E4F4;
+  padding-top: 50px;
+  cursor: pointer;
+}
+.search-a{
+  display: block;
+}
+.navbar-toggler{
+  border-color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

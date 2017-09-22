@@ -1,0 +1,38 @@
+.list{
+  min-height: 30px;
+  background-color: white;
+  width: 100%;
+}
+.left-side ul{
+  list-style: none;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.left-side ul li a{
+  display: block;
+  color: #1A364D;
+}
+.left-side ul li, .left-side ul li a{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.left-side ul li{
+  width: 90%;
+  height: 30px;
+  border-bottom: 1px solid #EBF0F4;
+}
+.active{
+  color: #FE8124 !important;
+}
+.left-side ul li:last-child{
+  border: 0 !important;
+}
+.left-side ul li a:hover{
+  text-decoration: none;
+  color: #FE8124;
+}
+ul fa{
+  margin-right: 5px;
+}

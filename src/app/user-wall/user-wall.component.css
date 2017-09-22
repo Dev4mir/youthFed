@@ -1,0 +1,155 @@
+.new-post{
+  margin-bottom: 30px;
+}
+#new-post-div{
+  text-align: center;
+  line-height: 40px;
+  background-color: #1A364D;
+  color: #C0C7CD;
+  height: 40px;
+  font-size: 17px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.new-post textarea{
+  width: 100%;
+  border: 0;
+  resize: none;
+  padding: 10px;
+  min-height: 100px;
+  font-size: 14px;
+  vertical-align: top;
+}
+.new-post textarea::placeholder{
+  color: #B5C1CB;
+}
+.new-post textarea:focus{
+  outline: 0;
+}
+hr{
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
+}
+.input-file{
+  display: none;
+}
+.inser-img-icon{
+  cursor: pointer;
+  float: left;
+  color: #8A8A8C;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.inser-img-icon:hover{
+  color: #FE8124;
+}
+.imgPreview{
+  width: 100px;
+  height: 100px;
+}
+.under-textarea{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 55px;
+  width: 100%;
+  background-color: white;
+}
+#submit-post{
+  width: 75px;
+  height: 30px;
+  padding-top: 5px;
+  font-size: 15px;
+  background-color: #FE8124;
+  color: white;
+  cursor: pointer;
+}
+
+.post{
+  margin-bottom: 30px;
+  background-color: white;
+  height: auto;
+  padding: 10px;
+}
+.userPhoto{
+  width: 50px;
+  padding-left: 5px !important;
+}
+.userName{
+  font-size: 14px;
+  color: #1A364D;
+  font-weight: bold;
+  margin-bottom: 0;
+
+}
+.userUniversity{
+  color: #FE8124;
+  font-size: 12px;
+  font-weight: bold;
+}
+.rm-padding{
+  padding: 0;
+}
+.date-icon{
+  font-size: 10px;
+  margin-right: 5px;
+}
+.postDate{
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}
+.userInput-div{
+  margin-top: 10px;
+}
+.userInput{
+  white-space: pre-wrap;
+  color: #1A364D;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.postPhoto{
+  width:90%;
+  max-height: 500px;
+  margin: 0 auto;
+  display: block;
+}
+.post-bottom{
+  height: 30px;
+}
+.comment-icon{
+  font-size: 11px;
+  color: #8A8A8C;
+}
+.comment-span{
+  margin-left: 5px;
+  color: #A1A1A3;
+  font-size: 11px;
+}
+.like-icon{
+  margin-left: 10px;
+  color: #A1A1A3;
+  font-size: 11px;
+}
+.com-lik{
+  float: left;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.read-more{
+  font-size: 13px;
+  color: #FE8124;
+  float: right;
+  margin-top: 10px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.read-more-icon{
+  margin-left: 5px;
+  font-size: 11px;
+}

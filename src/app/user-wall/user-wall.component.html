@@ -1,0 +1,60 @@
+<div class="new-post">
+  <div id="new-post-div">New Post</div>
+  <textarea autosize #input placeholder="Share your experience with us ..."></textarea>
+  <hr>
+  <div class="under-textarea">
+    <div class="row">
+      <div class="col-8 col-sm-9 col-md-10 col-lg-9">
+        <fa (click)="showImage()" class="inser-img-icon" [name]="'picture-o'" [size]=1></fa>
+        <fa class="inser-img-icon" [name]="'film'" [size]=1></fa>
+        <input #fileInput type='file' class="input-file" (change)="readUrl($event)">
+        <img class="imgPreview" [src]="url" *ngIf="url!=null">
+      </div>
+      <div class="col-4 col-sm-3 col-md-2 col-lg-3">
+        <button class="btn" id="submit-post" (click)="newPost(input.value);">GO</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="post" *ngFor="let post of posts.reverse();">
+  <div class="row">
+    <div class="col-2 rm-padding">
+      <img class="userPhoto" src={{post.userProfileImg}}>
+    </div>
+    <div class="col-4 rm-padding">
+      <p class="userName">{{post.userName}}</p>
+      <p class="userUniversity">{{post.userUniversity}}</p>
+    </div>
+    <div class="col-6" *ngIf="post.similarDates==false;else date2">
+      <p class="postDate">
+        <fa class="date-icon" [name]="'calendar'" [size]=1></fa>{{ post.date | amTimeAgo }}
+      </p>
+    </div>
+    <ng-template #date2>
+      <div class="col-6">
+        <p class="postDate">
+          <fa class="date-icon" [name]="'calendar'" [size]=1></fa>{{ post.date | amParse:'DD/MM/YYYY' | amDateFormat:'LL' }}
+        </p>
+      </div>
+    </ng-template>
+  </div>
+  <div class="userInput-div">
+    <p class="userInput">{{post.userInput}}</p>
+    <img class="postPhoto" src={{post.postImg}}>
+    <div class="row post-bottom">
+      <div class="col-6">
+        <p class="com-lik">
+          <fa class="comment-icon" [name]="'commenting'" [size]=1 [flip]="'horizontal'"></fa>
+          <span class="comment-span">Comment</span>
+        </p>
+        <p class="com-lik">
+          <fa class="like-icon" [name]="'smile-o'" [size]=1></fa>
+          <span class="comment-span">Like</span>
+        </p>
+      </div>
+      <div class="col-6">
+        <p class="read-more">Read More<fa class="read-more-icon" [name]="'plus-circle'" [size]=1></fa></p>
+      </div>
+    </div>
+  </div>
+</div>
