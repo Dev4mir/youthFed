@@ -23,7 +23,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://dev4mir.github.io/youthFed/",
   "background_color": "#FE8124",
   "theme_color": "#FE8124",
   "display": "standalone",
