@@ -1,0 +1,31 @@
+{
+  "short_name": "Youth Fed",
+  "name": "Youth Federation",
+  "icons": [
+    {
+      "src":"assets/imgs/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src":"assets/imgs/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src":"assets/imgs/icons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src":"assets/imgs/icons/mstile-150x150.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FE8124",
+  "theme_color": "#FE8124",
+  "display": "standalone",
+  "orientation": "portrait"
+}
